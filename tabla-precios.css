@@ -1,0 +1,65 @@
+body{
+    background-color: #f4f4f4; 
+}
+h2{
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 600;
+    margin: 0 auto;
+}
+p{
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 10px;
+}
+.container{
+    width: 90%;
+    font-family: 'Roboto Slab', serif;
+    margin: 0 auto;
+    padding: 10px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.columna{
+    background: #f0e5c9;
+    color: #594433;
+    border: 1px solid #594433;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: -7px 7px 6px #a8a8a8;
+    width: 23%;
+    box-sizing: border-box;
+}
+.precio{
+    font-size: 50px;
+    color: #9ba657;
+}
+.btn-precio{
+    background: #9ba657;
+    color: #f4f4f4;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 3px;   
+}
+.btn-precio:hover{
+    background: #8d9750;
+}
+
+@media screen and (max-width: 1070px){
+    .columna{
+        width: 48%;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 700px){
+    .columna{
+        width: 100%;
+    }
+}
